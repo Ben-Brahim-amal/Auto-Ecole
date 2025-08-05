@@ -1,0 +1,122 @@
+
+/* ---------------------------
+body page admin vue candidat
+----------------------------
+ */
+.fiche {
+  background: white;
+  color: rgba(0, 0, 0, 0.8);
+  display: grid;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  height: 500px;
+  justify-items: center
+}
+
+.fichh{
+  font-size: 16px;
+  font-family: none;
+}
+
+
+.signup-container {
+  display: grid;
+  grid-template-areas: "left right";
+  max-width: 900px;
+}
+
+.set{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.right-container {
+  background:#babcba;
+  display: grid;
+  grid-template-areas: "." ".";
+  width: 500px;
+}
+.right-container h1:nth-of-type(1) {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 28px;
+  font-weight: 600;
+}
+.right-container .set {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.right-container input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 5px;
+}
+.right-container input, .right-container label {
+  color: rgba(0, 0, 0, 0.8);
+}
+.right-container header {
+  padding: 40px;
+}
+.right-container label, .right-container input, .right-container .pets-photo {
+  width: 176px;
+}
+.right-container .pets-photo {
+  align-items: center;
+  display: grid;
+  grid-template-areas: ". .";
+}
+.right-container .pets-photo button {
+  border: none;
+  border-radius: 50%;
+  height: 38px;
+  margin-right: 10px;
+  outline: none;
+  width: 38px;
+}
+.right-container .pets-photo button i {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px;
+}
+.right-container .pets-weight .radio-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.right-container footer {
+  align-items: center;
+  background: #fff;
+  display: grid;
+  padding: 5px 40px;
+}
+.right-container footer button {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  height: 38px;
+  line-height: 38px;
+  width: 100px;
+  border-radius: 19px;
+  font-family: "Montserrat", sans-serif;
+}
+.right-container footer #back {
+  background: #fff;
+  transition: 0.2s all ease-in-out;
+}
+.right-container footer #back:hover {
+  background: #171A2B;
+  color: white;
+}
+.right-container footer #next {
+  background: #708676;
+  border: 1px solid transparent;
+  color: #fff;
+}
+.right-container footer #next:hover {
+  background: #171A2B;
+}
+
+.pets-name label, .pets-breed label, .pets-birthday label, .pets-gender label, .pets-spayed-neutered label, .pets-weight label {
+  display: block;
+  margin-bottom: 5px;
+}
+
